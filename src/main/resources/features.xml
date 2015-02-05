@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="davidatkins-camel-helloworld-fuse">
+   <feature name="davidatkins-camel-helloworld-fuse" version="${project.version}">
+      <feature>camel</feature>
+      <feature>camel-blueprint</feature>
+      <feature>camel-core</feature>
+      
+      <bundle>mvn:uk.co.davidatkins/camel-hello-world-fuse/${project.version}</bundle>
+   </feature>
+</features>
+
