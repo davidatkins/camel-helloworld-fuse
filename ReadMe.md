@@ -27,7 +27,7 @@ osgi:install mvn:uk.co.davidatkins/camel-helloworld-fuse/1.0-SNAPSHOT
 This will ensure camel features are also running
 
 <code>
-features:addurl mvn:uk.co.davidatkins/camel-helloworld-fuse/${project.version}/xml/features
+features:addurl mvn:uk.co.davidatkins/camel-helloworld-fuse/1.0-SNAPSHOT/xml/features
 features:install davidatkins-camel-helloworld-fuse
 </code>
 
